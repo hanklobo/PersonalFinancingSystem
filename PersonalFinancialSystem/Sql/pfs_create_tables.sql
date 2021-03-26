@@ -1,0 +1,9 @@
+CREATE TABLE entry(
+    `Id` INT NOT NULL AUTO_INCREMENT ,
+    `Descricao` VARCHAR(255) NOT NULL ,
+    `Data` DATETIME NOT NULL ,
+    `Valor` DECIMAL(10,2) NOT NULL ,
+    `Conta` VARCHAR(50) NOT NULL ,
+    `Tipo` VARCHAR(1) NOT NULL ,
+    PRIMARY KEY (`Id`)
+);
